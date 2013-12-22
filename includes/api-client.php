@@ -42,7 +42,7 @@ class MEXP_Flickr_API_Client {
 		if ( ! isset( $response['response']['code'] ) || 200 !== (int) $response['response']['code'] ) {
 			return new WP_Error(
 				'mexp_flickr_unexpected_response',
-				__( 'Unexpected response from Flickr API with status code ' . $response['response']['code'], 'mexp-flickr' )
+				sprintf( __( 'Unexpected response from Flickr API with status code %s', 'mexp-flickr' ), $response['response']['code'] )
 			);
 		}
 

@@ -27,7 +27,8 @@ class MEXP_Flickr_Service extends MEXP_Service {
 	 * @return void
 	 */
 	public function __construct() {
-		$this->set_template( new MEXP_Flickr_Template );
+		$tpl = new MEXP_Flickr_Template();
+		$this->set_template( $tpl );
 	}
 
 	/**

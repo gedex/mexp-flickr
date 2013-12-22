@@ -16,6 +16,20 @@ This extension allows user to search photos from Flickr by text, tags and user I
 
 **Development of this plugin is done [on GitHub](https://github.com/gedex/mexp-flickr). Pull requests welcome.**
 
+== Installation ==
+
+1. Upload MEXP Flickr plugin to your blog's `wp-content/plugins/` directory and activate.
+2. Add mu-plugin, say `wp-content/mu-plugins/mexp-flickr-api-key.php`. With following content:
+
+   ```
+   <?php
+
+   add_filter( 'mexp_flickr_api_key', 'mexp_flickr_api_key_callback' );
+   function mexp_flickr_api_key_callback() {
+     return 'YOUR_FLICKR_API_KEY';
+   }
+   ```
+
 == Screenshots ==
 
 1. Search photos from Flickr within media explorer

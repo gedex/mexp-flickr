@@ -16,7 +16,7 @@ class MEXP_Flickr_Service extends MEXP_Service {
 	/**
 	 * Number of images to return by default.
 	 */
-	const DEFAULT_PER_PAGE = 18;
+	const DEFAULT_PER_PAGE = 19;
 
 	/**
 	 * Constructor.

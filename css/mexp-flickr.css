@@ -1,0 +1,19 @@
+.mexp-item-flickr {
+	max-height: 272px;
+}
+
+.mexp-item-flickr .mexp-item-thumb {
+	width: 240px;
+	max-height: 240px;
+}
+
+.mexp-item-flickr .mexp-item-thumb img {
+	width: auto;
+	max-width: 99%;
+}
+
+.mexp-item-flickr .mexp-item-main {
+	width: 240px;
+	height: 32px;
+	overflow: hidden;
+}

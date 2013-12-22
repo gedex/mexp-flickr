@@ -14,7 +14,7 @@ Flickr extension for the Media Explorer.
 This plugin is an extension for [Media Exporer](https://github.com/Automattic/media-explorer/) plugin that adds Flickr service.
 This extension allows user to search photos from Flick by text, tags and user ID.
 
-** Development of this plugin is done [on GitHub](https://github.com/gedex/mexp-flickr). Pull requests welcome.**
+**Development of this plugin is done [on GitHub](https://github.com/gedex/mexp-flickr). Pull requests welcome.**
 
 == Screenshots ==
 
